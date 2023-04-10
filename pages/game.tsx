@@ -13,6 +13,15 @@ const Game = () => {
 
   
   useEffect(() => {
+    // const handlePlay = (src: any) => {
+    //   const sound = new Howl({
+    //     src,
+    //     html5: true,
+    //   });
+    //   sound.play();
+    // };
+    // handlePlay('/sounds/clear.wav');
+
     if (containerRef.current) {
       const stage = new Konva.Stage({
         container: containerRef.current,
